@@ -1,0 +1,33 @@
+name: EasyWarp
+version: '${version}'
+main: de.bloon.easywarp.EasyWarp
+api-version: '1.16'
+
+commands:
+  spawn:
+    description: teleports a player to spawn
+    aliases:
+      - "spawn"
+  setspawn:
+    description: sets the world spawn
+    aliases:
+      - "setspawn"
+      - "setworldspawn"
+  setwarp:
+    description: sets a warp point
+    aliases:
+      - "setwarp"
+  warp:
+    description: teleports a player tot a warp point
+    aliases:
+      - "warp"
+  deletewarp:
+    description: deletes a warp point
+    aliases:
+      - "deletewarp"
+      - "delwarp"
+  warps:
+    description: displays all warp points
+    aliases:
+      - "warps"
+      - "warplist"
